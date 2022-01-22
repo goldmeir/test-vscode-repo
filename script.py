@@ -2,10 +2,15 @@ import math
 import os
 import sys
 
-import requests
-
 
 print(sys.executable)
 
-name = input("Your Name?")
-print("Hello, ", name)
+
+def my_test(test):
+    test = test
+    a = 15
+    print(test)
+    return test
+
+
+print("test")
